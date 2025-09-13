@@ -43,6 +43,5 @@ signInWithGoogle.addEventListener("click", (event) => {
             // const email = error.customData.email;
             const credential = GoogleAuthProvider.credentialFromError(error);
             showMessage(errorMessage, "error")
-            console.log("error", error)
         });
 })
